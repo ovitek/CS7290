@@ -1,4 +1,4 @@
-<h1> Special Topics in Data Science, Spring 2018 </h1>
+<h1> Topics in Statistical Inference, Spring 2018 </h1>
 <h2>TF 3:25pm - 5:05pm, TBA</h2>
 
 <p><strong>Instructor:</strong> [Prof. Olga Vitek](http://olga-vitek-lab.ccis.northeastern.edu/)</br>
@@ -8,3 +8,20 @@ Phone: (617) 373-6305</br>
 Mailbox: WVH 202</p>
 
 <p><strong>Course description:</strong></br>
+
+The course offers a view into data science from the statistical inference perspective. It will introduce the foundations of statistical inference, and its applications in both frequentist and Bayesian paradigm. The course will introduce the important concepts using mathematical representation and computer simulation, however the main focus will be on appropriate choice of the methods in analysis of real-life datasets.
+
+Specific topics include:
+
+* Point and interval estimation and hypothesis testing.
+* Inference in linear and generalized linear models.
+* Linear mixed effects models.
+* Acounting for missing values, outliers, and multiplicity of testing. 
+* Optimal design of randomized experiments.
+* Statistical evidence from observational studies and causal inference.
+* Modeling and prediction in presence of temporal or spatial associations.
+
+The course will contain hands-on experience with analysis of datasets in homeworks, and in a course project. The mathematical literacy (multivariable calculus, probability, linear algebra)
+and computational literacy (programing languages such as R, Python or MATLAB) at the beginner
+graduate level is required.
+
