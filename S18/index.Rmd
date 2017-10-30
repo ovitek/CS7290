@@ -14,7 +14,7 @@ The course offers a view into data science from the statistical inference perspe
 Specific topics include:
 
 * Point and interval estimation and hypothesis testing.
-* Inference in linear and generalized linear models.
+* Inference in linear models, and in generalized linear models for count data.
 * Linear mixed effects models.
 * Acounting for missing values, outliers, and multiplicity of testing. 
 * Optimal design of randomized experiments.
