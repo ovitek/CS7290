@@ -1,0 +1,10 @@
+<h1> Special Topics in Data Science, Spring 2018 </h1>
+<h2>TF 3:25pm - 5:05pm, TBA</h2>
+
+<p><strong>Instructor:</strong> [Prof. Olga Vitek](http://olga-vitek-lab.ccis.northeastern.edu/)</br>
+Email: o.vitek@neu.edu</br>
+Office hours: WVH 310F, Tuesdays 3:30pm-4:30pm, or by appointment.</br>
+Phone: (617) 373-6305</br>
+Mailbox: WVH 202</p>
+
+<p><strong>Course description:</strong></br>
