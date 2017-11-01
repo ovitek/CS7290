@@ -21,7 +21,7 @@ Specific topics include:
 * Statistical evidence from observational studies and causal inference.
 * Modeling and prediction in presence of temporal or spatial associations.
 
-The course will contain hands-on experience with analysis of datasets in homeworks, and in a course project. The mathematical literacy (multivariable calculus, probability, linear algebra)
+The course will contain exams, hands-on experience with analysis of datasets in homeworks, and in a course project. The mathematical literacy (multivariable calculus, probability, linear algebra)
 and computational literacy (programing languages such as R, Python or MATLAB) at the beginner
 graduate level is required.
 
