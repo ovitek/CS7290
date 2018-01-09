@@ -7,12 +7,12 @@ Schedule is updated dynamically during the semester
 || DATE      | TOPIC           |READING         |      OUT |      DUE |
 |--| --------- |:----------------- |:-------------| --------:| ----------:|
 || Tue, Jan 9 | Introduction ||||
-|| Fri, Jan 12</br>Tue, Jan 16</br>Fri, Jan 19</br>Tue, Jan 23</br>Fri, Jan 26</br>Tue, Jan 30|Statistical inference</br>Linear models</br>Association tests||||
+|| Fri, Jan 12</br>Tue, Jan 16</br>Fri, Jan 19</br>Tue, Jan 23</br>Fri, Jan 26</br>Tue, Jan 30|Point \& interval estimation</br>Hypothesis testing</br>Linear models<br>Multiple testing||||
 || *Fri, Feb 2*|<strong>Midterm 1</strong>||||
-|| Tue, Feb 6</br>Fri, Feb 9</br>Tue, Feb 13</br>Fri, Feb 16</br>Tue, Feb 20</br>Fri, Feb 23</br>Tue, Feb 27</br>Fri, Mar 2</br> |Mixed models</br>Experimental design</br>Response surface|||</br></br></br>Porj. groups due</br></br></br></br>Proj. proposal due|
+|| Tue, Feb 6</br>Fri, Feb 9</br>Tue, Feb 13</br>Fri, Feb 16</br>Tue, Feb 20</br>Fri, Feb 23</br>Tue, Feb 27</br>Fri, Mar 2</br> |Bayes \& empirical Bayes</br>Mixed effects models</br>Experimental design</br>Response surfaces|||</br></br></br>Porj. group due</br></br></br></br>Proj. proposal due|
 | | *Tue, Mar 6*</br>*Fri, Mar 9* | *No class, Spring break*</br>*No class, Spring break* ||||
 || *Tue, Mar 13*|<strong>Midterm 2</strong>||||
-|| Fri, Mar 16</br>Tue, Mar 20</br>Fri, Mar 23</br>Tue, Mar 27</br>Fri, Mar 30</br>Tue, Apr 3</br>Fri, Apr 6</br>Tue, Apr 10|Categirical data</br>Survival analysis</br>Causal inference||||
+|| Fri, Mar 16</br>Tue, Mar 20</br>Fri, Mar 23</br>Tue, Mar 27</br>Fri, Mar 30</br>Tue, Apr 3</br>Fri, Apr 6</br>Tue, Apr 10|Generalized linear models</br>Survival analysis</br>Causal inference||||
 || Fri, Apr 13|<strong>Final exam</strong>||||
 ||Tue, Apr 17</br>Fri, Apr 20 |<strong>Project presentations</strong></br><strong>Project presentations</strong> ||||
 ||Tue, Apr 24 |  |||Proj. review due|
