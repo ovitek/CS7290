@@ -6,8 +6,8 @@ Schedule is updated dynamically during the semester
 
 || DATE      | TOPIC           |READING         |      OUT |      DUE |
 |--| --------- |:----------------- |:-------------| --------:| ----------:|
-|| Tue, Jan 9 | Introduction |In press [1](https://fivethirtyeight.com/features/what-went-wrong-in-flint-water-crisis-michigan), [2](http://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.2015.303003), [3](https://fivethirtyeight.com/features/how-the-fda-could-change-the-way-it-approves-drugs/)|||
-|| Fri, Jan 12</br>Tue, Jan 16</br>Fri, Jan 19</br>Tue, Jan 23</br>Fri, Jan 26</br>Tue, Jan 30|Point \& interval estimation</br>Uncertainty in linear models</br>Tests for associations<br>Multiple testing||||
+|0| Tue, Jan 9 | Introduction |In press [1](https://fivethirtyeight.com/features/what-went-wrong-in-flint-water-crisis-michigan), [2](http://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.2015.303003), [3](https://fivethirtyeight.com/features/how-the-fda-could-change-the-way-it-approves-drugs/)|||
+|1| Fri, Jan 12</br>Tue, Jan 16</br>Fri, Jan 19</br>Tue, Jan 23</br>Fri, Jan 26</br>Tue, Jan 30|Point \& interval estimation</br>Uncertainty in linear models</br>Tests for associations<br>Multiple testing|In press [1](https://www.nature.com/articles/nmeth.2613)|||
 || *Fri, Feb 2*|<strong>Midterm 1</strong>||||
 || Tue, Feb 6</br>Fri, Feb 9</br>Tue, Feb 13</br>Fri, Feb 16</br>Tue, Feb 20</br>Fri, Feb 23</br>Tue, Feb 27</br>Fri, Mar 2</br> |Mixed effects models</br>Bayes \& empirical Bayes</br>Experimental design</br>Response surfaces</br>Missing data|||</br></br></br>Proj. group due</br></br></br></br>Proj. proposal due|
 | | *Tue, Mar 6*</br>*Fri, Mar 9* | *No class, Spring break*</br>*No class, Spring break* ||||
