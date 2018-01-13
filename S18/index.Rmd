@@ -9,8 +9,8 @@ Mailbox: WVH 202</p>
 
 <p><strong>Teaching assistants:</strong></br>
 [Mrs. Dan Guo](http://www.ccis.northeastern.edu/people/dan-guo/), 
-Email: guo.dan@husky.neu.edu,
-Office hours: Thursdays 3pm-4pm, WVH 310C 
+Email: guo.dan@husky.neu.edu</br>
+Office hours: WVH 310C, Thursdays 3pm-4pm, or by appointment.
 
 <p><strong>Course policies and administration:</strong></br> [Syllabus](CS7290-Spring18-syllabus.pdf). [Piazza](https://piazza.com/class/jc71pjke94b5r8), [Blackboard](https://northeastern.blackboard.com/).</br>
 [Academic integrity policy](http://www.northeastern.edu/osccr/academic-integrity-policy/) is strictly enforced.</p> 
