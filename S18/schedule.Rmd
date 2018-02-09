@@ -12,8 +12,8 @@ Schedule is updated dynamically during the semester
 || *Fri, Feb 2*|<strong>Midterm 1</strong>||||
 || Tue, Feb 6</br>Fri, Feb 9</br>Tue, Feb 13</br>Fri, Feb 16</br>Tue, Feb 20</br>Fri, Feb 23</br>Tue, Feb 27</br>Fri, Mar 2</br> |Uncertainty in linear models</br>Generalized linear models</br>Experimental design</br>Response surfaces</br>Mixed effects models</br>Bayes \& empirical Bayes</br>Missing data|||</br></br></br>Proj. group due</br></br></br></br>Proj. proposal due|
 | | *Tue, Mar 6*</br>*Fri, Mar 9* | *No class, Spring break*</br>*No class, Spring break* ||||
-|| *Tue, Mar 13*|<strong>Midterm 2</strong>||||
-|| Fri, Mar 16</br>Tue, Mar 20</br>Fri, Mar 23</br>Tue, Mar 27</br>Fri, Mar 30</br>Tue, Apr 3</br>Fri, Apr 6</br>Tue, Apr 10|Non-parametric inference</br>Associations in count data</br>Survival analysis</br>Temporal data</br>Spatial data</br>Causal inference||||
+|| *Tue, Mar 13*</br>*Fri, Mar 16*|*No class*</br><strong>Midterm 2</strong>||||
+|| Tue, Mar 20</br>Fri, Mar 23</br>Tue, Mar 27</br>Fri, Mar 30</br>Tue, Apr 3</br>Fri, Apr 6</br>Tue, Apr 10|Non-parametric inference</br>Associations in count data</br>Survival analysis</br>Temporal data</br>Spatial data</br>Causal inference||||
 || Fri, Apr 13|<strong>Final exam</strong>||||
 ||Tue, Apr 17</br>Fri, Apr 20 |<strong>Project presentations</strong></br><strong>Project presentations</strong> ||||
 ||Tue, Apr 24 |  |||Proj. review due|
