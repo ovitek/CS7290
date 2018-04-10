@@ -15,7 +15,7 @@ Schedule is updated dynamically during the semester
 | | *Tue, Mar 6*</br>*Fri, Mar 9* | *No class, Spring break*</br>*No class, Spring break* ||||
 || *Tue, Mar 13*</br>*Fri, Mar 16*|*No class*</br><strong>Midterm 2</strong>||||
 |5| Tue, Mar 20</br>Fri, Mar 23</br>Tue, Mar 27</br>Fri, Mar 30</br>Tue, Apr 3</br>Fri, Apr 6|Experimental design</br>Mixed effects models</br>|KNNL Ch15-20</br>Faraway Ch8</br>Extra [1](https://www.nature.com/articles/nmeth.2974), [2](https://www.nature.com/articles/nmeth.3224), [3](https://www.nature.com/articles/nmeth.3005), [4](https://www.nature.com/articles/nmeth.3180), [5](https://www.nature.com/articles/nmeth.3137), [6](https://www.nature.com/articles/nmeth.3293)||</br></br></br></br>Hw4 out</br>Proj. Gr4 presents|
-|6| Tue, Apr 10</br>Fri, Apr 13|Ordinal data</br>GLM review|Faraway Ch5||</br></br>Hw4 due Apri 13|
+|6| Tue, Apr 10</br>Fri, Apr 13|Ordinal data</br>GLM review|Faraway Ch5||</br>Hw4 due Apri 13|
 || Tue, Apr 17|<strong>Final exam</strong>||||
 ||Fri, Apr 20 |<strong>Project presentations</strong> ||||
 ||Tue, Apr 24 |  |||Proj. review due|
