@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CS7290</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Info</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<h1>
+Topics in Statistical Inference, Spring 2018
+</h1>
+<p>Schedule is updated dynamically during the semester </br></p>
+<p><font size="3"></p>
+<table style="width:96%;">
+<colgroup>
+<col width="4%" />
+<col width="13%" />
+<col width="26%" />
+<col width="20%" />
+<col width="13%" />
+<col width="16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>DATE</th>
+<th align="left">TOPIC</th>
+<th align="left">READING</th>
+<th align="right">OUT</th>
+<th align="right">DUE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Tue, Jan 9</td>
+<td align="left">Introduction</td>
+<td align="left">Extra <a href="https://fivethirtyeight.com/features/what-went-wrong-in-flint-water-crisis-michigan">1</a>, <a href="http://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.2015.303003">2</a>, <a href="https://fivethirtyeight.com/features/how-the-fda-could-change-the-way-it-approves-drugs/">3</a></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Fri, Jan 12</br>Tue, Jan 16</br>Fri, Jan 19</br>Tue, Jan 23</td>
+<td align="left">Point &amp; interval estimation</br>Hypothesis testing</br>Multiple testing</br></td>
+<td align="left">RI <a href="https://rafalab.github.io/dsbook/introduction-4.html">Ch 30-34</a></br>Extra <a href="https://www.nature.com/articles/nmeth.2813">1</a>, <a href="https://www.nature.com/articles/nmeth.2613">2</a>, <a href="https://www.nature.com/articles/nmeth.2659">3</a>, <a href="https://www.nature.com/articles/nmeth.2698">4</a>, <a href="https://www.nature.com/articles/nmeth.2738">5</a>, <a href="https://www.nature.com/articles/nmeth.3288">6</a>, <a href="http://amstat.tandfonline.com/doi/abs/10.1080/00031305.2016.1154108">7</a></td>
+<td align="right">Hw1 out</td>
+<td align="right"></br></br>Hw1 due Jan 22</br>Hw2 out</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Fri, Jan 26</br>Tue, Jan 30</td>
+<td align="left">Uncertainty in linear models</td>
+<td align="left">KNNL Ch 1-4</br>Extra <a href="https://www.nature.com/articles/nmeth.3627">1</a>, <a href="https://www.nature.com/articles/nmeth.3665">2</a>, <a href="https://www.nature.com/articles/nmeth.3854">3</a>, <a href="https://www.nature.com/articles/nmeth.3854">4</a></td>
+<td align="right"></td>
+<td align="right"></br>Hw2 due Jan 31</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><em>Fri, Feb 2</em></td>
+<td align="left"><strong>Midterm 1</strong></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Tue, Feb 6</br>Fri, Feb 9</br>Tue, Feb 13</br>Fri, Feb 16</br>Tue, Feb 20</td>
+<td align="left">Multiple regression</br></br></br>Bootstrap</br>Weighted regression</td>
+<td align="left">KNNL Ch 5-11</br>Extra <a href="https://www.nature.com/articles/nmeth.3665">1</a>, <a href="https://www.nature.com/articles/nmeth.3414">2</a>, <a href="https://www.nature.com/articles/nmeth.3414">3</a></td>
+<td align="right"></td>
+<td align="right"></br>Hw3 out</br>Proj. group due</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Fri, Feb 23</br>Tue, Feb 27</br>Fri, Mar 2</br></td>
+<td align="left">Generalized linear models</td>
+<td align="left">KNNL Ch 14</br>Extra <a href="https://www.nature.com/articles/nmeth.3904">1</a></td>
+<td align="right"></td>
+<td align="right"></br>Hw3 due Feb 28</br>Proj. proposal due</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><em>Tue, Mar 6</em></br><em>Fri, Mar 9</em></td>
+<td align="left"><em>No class, Spring break</em></br><em>No class, Spring break</em></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><em>Tue, Mar 13</em></br><em>Fri, Mar 16</em></td>
+<td align="left"><em>No class</em></br><strong>Midterm 2</strong></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Tue, Mar 20</br>Fri, Mar 23</br>Tue, Mar 27</br>Fri, Mar 30</br>Tue, Apr 3</br>Fri, Apr 6</td>
+<td align="left">Experimental design</br>Mixed effects models</br></td>
+<td align="left">KNNL Ch15-20</br>Faraway Ch8</br>Extra <a href="https://www.nature.com/articles/nmeth.2974">1</a>, <a href="https://www.nature.com/articles/nmeth.3224">2</a>, <a href="https://www.nature.com/articles/nmeth.3005">3</a>, <a href="https://www.nature.com/articles/nmeth.3180">4</a>, <a href="https://www.nature.com/articles/nmeth.3137">5</a>, <a href="https://www.nature.com/articles/nmeth.3293">6</a></td>
+<td align="right"></td>
+<td align="right"></br></br></br></br>Hw4 out</br>Proj. Gr4 presents</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Tue, Apr 10</br>Fri, Apr 13</td>
+<td align="left">Ordinal data</br>GLM review</td>
+<td align="left">Faraway Ch5</td>
+<td align="right"></td>
+<td align="right"></br>Hw4 due</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Tue, Apr 17</td>
+<td align="left"><strong>Final exam</strong></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Fri, Apr 20</td>
+<td align="left"><strong>Project presentations</strong></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Tue, Apr 24</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right">Proj. review due</td>
+</tr>
+</tbody>
+</table>
+<p></font></p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
