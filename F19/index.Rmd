@@ -1,5 +1,5 @@
-<h1> Topics in Statistical Inference, Spring 2018 </h1>
-<h2>TF 3:25pm - 5:05pm, Richards Hall, 165</h2>
+<h1> Topics in Statistical Inference, Fall 2019 </h1>
+<h2>TF 9:50pm - 11:30pm, Richards Hall, 165</h2>
 
 <p><strong>Instructor:</strong> [Prof. Olga Vitek](http://olga-vitek-lab.ccis.northeastern.edu/)</br>
 Email: o.vitek@neu.edu</br>
