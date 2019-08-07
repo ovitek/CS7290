@@ -1,0 +1,26 @@
+<h1> Topics in Statistical Inference, Spring 2018 </h1>
+<h2>TF 3:25pm - 5:05pm, Richards Hall, 165</h2>
+
+<p><strong>Instructor:</strong> [Prof. Olga Vitek](http://olga-vitek-lab.ccis.northeastern.edu/)</br>
+Email: o.vitek@neu.edu</br>
+Office hours: WVH 310F, Thursdays 9:00am-10:00am, or by appointment.</br>
+Phone: (617) 373-6305</br>
+Mailbox: WVH 202</p>
+
+<p><strong>Teaching assistants:</strong></br>
+[Mrs. Dan Guo](http://www.ccis.northeastern.edu/people/dan-guo/), 
+Email: guo.dan@husky.neu.edu</br>
+Office hours: WVH 310C, Thursdays 3pm-4pm, or by appointment.
+
+<p><strong>Course policies and administration:</strong></br> [Syllabus](CS7290-Spring18-syllabus.pdf). [Piazza](https://piazza.com/class/jc71pjke94b5r8), [Blackboard](https://northeastern.blackboard.com/).</br>
+[Academic integrity policy](http://www.northeastern.edu/osccr/academic-integrity-policy/) is strictly enforced.</p> 
+
+<h2>Classical texts:</h2>
+<p>(KNNL) [Applied Linear Statistical Models](https://www.amazon.com/Applied-Linear-Statistical-Models-Student/dp/0071122214/ref=mt_paperback?_encoding=UTF8&me=). Kutner, Neter, Nachtsheim, Li, McGraw-Hill, 5th Edition, 2004.</br>
+(Rao) [Statistical Research Methods in the Life Sciences](https://www.amazon.com/Statistical-Research-Methods-Life-Sciences/dp/0534931413). P. V. Rao, Duxbury Press, 1997.</br>
+(Dobson) [An Introduction to Generalized Linear Models](https://www.amazon.com/dp/1584889500/). A. Dobson, Chapman & Hall/CRC, 3rd Edition, 2008.
+</p>
+
+<h2>Recent texts (to be dynamically updated):</h2>
+<p>(OI) [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=reset). Diez, Barr, Cetinkaya-Rundel, OpenIntro, 2014</br>
+(RI) [Introduction to Data Science](https://rafalab.github.io/dsbook/). Irizarry, HarvardX Data Science Serie, 2017.</br></p>
