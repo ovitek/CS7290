@@ -1,22 +1,43 @@
-<h1> Topics in Statistical Inference, Spring 2018 </h1>
+<h1> Topics in Statistical Inference, Fall 2019 </h1>
 Schedule is updated dynamically during the semester
 </br>
 
 <font size="3">
 
-|| DATE      | TOPIC           |READING         |      OUT |      DUE |
-|--| --------- |:----------------- |:-------------| --------:| ----------:|
-|0| Tue, Jan 9 | Introduction |Extra [1](https://fivethirtyeight.com/features/what-went-wrong-in-flint-water-crisis-michigan), [2](http://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.2015.303003), [3](https://fivethirtyeight.com/features/how-the-fda-could-change-the-way-it-approves-drugs/)|||
-|1| Fri, Jan 12</br>Tue, Jan 16</br>Fri, Jan 19</br>Tue, Jan 23|Point \& interval estimation</br>Hypothesis testing</br>Multiple testing</br>|RI [Ch 30-34](https://rafalab.github.io/dsbook/introduction-4.html)</br>Extra [1](https://www.nature.com/articles/nmeth.2813), [2](https://www.nature.com/articles/nmeth.2613), [3](https://www.nature.com/articles/nmeth.2659), [4](https://www.nature.com/articles/nmeth.2698), [5](https://www.nature.com/articles/nmeth.2738), [6](https://www.nature.com/articles/nmeth.3288), [7](http://amstat.tandfonline.com/doi/abs/10.1080/00031305.2016.1154108)|Hw1 out|</br></br>Hw1 due Jan 22</br>Hw2 out|
-|2|Fri, Jan 26</br>Tue, Jan 30|Uncertainty in linear models|KNNL Ch 1-4</br>Extra [1](https://www.nature.com/articles/nmeth.3627), [2](https://www.nature.com/articles/nmeth.3665), [3](https://www.nature.com/articles/nmeth.3854), [4](https://www.nature.com/articles/nmeth.3854) ||</br>Hw2 due Jan 31|
-|| *Fri, Feb 2*|<strong>Midterm 1</strong>||||
-|3| Tue, Feb 6</br>Fri, Feb 9</br>Tue, Feb 13</br>Fri, Feb 16</br>Tue, Feb 20|Multiple regression</br></br></br>Bootstrap</br>Weighted regression|KNNL Ch 5-11</br>Extra [1](https://www.nature.com/articles/nmeth.3665), [2](https://www.nature.com/articles/nmeth.3414), [3](https://www.nature.com/articles/nmeth.3414)||</br>Hw3 out</br>Proj. group due|
-|4| Fri, Feb 23</br>Tue, Feb 27</br>Fri, Mar 2</br> |Generalized linear models|KNNL Ch 14</br>Extra [1](https://www.nature.com/articles/nmeth.3904)||</br>Hw3 due Feb 28</br>Proj. proposal due|
-| | *Tue, Mar 6*</br>*Fri, Mar 9* | *No class, Spring break*</br>*No class, Spring break* ||||
-|| *Tue, Mar 13*</br>*Fri, Mar 16*|*No class*</br><strong>Midterm 2</strong>||||
-|5| Tue, Mar 20</br>Fri, Mar 23</br>Tue, Mar 27</br>Fri, Mar 30</br>Tue, Apr 3</br>Fri, Apr 6|Experimental design</br>Mixed effects models</br>|KNNL Ch15-20</br>Faraway Ch8</br>Extra [1](https://www.nature.com/articles/nmeth.2974), [2](https://www.nature.com/articles/nmeth.3224), [3](https://www.nature.com/articles/nmeth.3005), [4](https://www.nature.com/articles/nmeth.3180), [5](https://www.nature.com/articles/nmeth.3137), [6](https://www.nature.com/articles/nmeth.3293)||</br></br></br></br>Hw4 out</br>Proj. Gr4 presents|
-|6| Tue, Apr 10</br>Fri, Apr 13|Ordinal data</br>GLM review|Faraway Ch5||</br>Hw4 due|
-|| Tue, Apr 17|<strong>Final exam</strong>||||
-||Fri, Apr 20 |<strong>Project presentations</strong> ||||
-||Tue, Apr 24 |  |||Proj. review due|
+| | DATE          | TOPIC            |READING        |      OUT |        DUE |
+|-- | ---------   |:-----------------|:--------------| --------:| ----------:|
+| 1 | Fri, Sep 6  |                  |               |          |            |
+|   | Tue, Sep 10 |                  |               |Hw1 out   |            |
+|   | Fri, Sep 13 |                  |               |          |            | 
+|   | Tue, Sep 17 |                  |               |          |            |
+|   | Fri, Sep 20 |                  |               |          |            | 
+| 2 | Tue, Sep 24 |                  |               |Hw2 out   |Hw1 due     |
+|   | Fri, Sep 27 |                  |               |          |            | 
+|   | Tue, Oct 1  |                  |               |          |            |
+|   | Fri, Oct 4  |                  |               |          |            | 
+|   | Tue, Oct 8  |                  |               |          |Hw2 due</br>Proj group due|
+|   | Fri, Oct 11 |**Midterm exam**  |               |          |            | 
+| 3 | Tue, Oct 15 |                  |               |Hw3 out   |            |
+|   | Fri, Oct 18 |                  |               |          |            | 
+|   | Tue, Oct 22 |                  |               |          |            |
+|   | Fri, Oct 25 |                  |               |          |            | 
+|   | Tue, Oct 29 |*Guest/cancelled lecture*   |     |          |            |
+|   | Fri, Nov 1  |Project pitches   |               |          |Proj proposal due| 
+|   | Tue, Nov 5  |                  |               |          |Hw3 due     |
+| 4 | Fri, Nov 8  |                  |               |Hw4 out   |            | 
+|   | Tue, Nov 12 |                  |               |          |            |
+|   | Fri, Nov 15 |                  |               |          |            | 
+|   | Tue, Nov 19 |                  |               |          |            |
+|   | Fri, Nov 22 |                  |               |          |Hw4 due     | 
+|   | Tue, Nov 26 |**Final exam**    |               |          |            |
+|   |*Fri, Nov 29*|*No class, Thanksgiving* |        |          |            | 
+|   | Tue, Dec 3  |                  |               |          |            |
+|   | Fri, Dec 6  |*Project presentations*  |        |          |Proj report due| 
+|   | Tue, Dec 10 |                  |               |          |Proj review due|
 </font>
+
+
+
+
+
+

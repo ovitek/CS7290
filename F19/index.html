@@ -7,11 +7,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>index.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,8 +21,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -68,9 +71,7 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -84,13 +85,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -106,7 +112,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -126,6 +131,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -147,19 +189,73 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -202,28 +298,26 @@ $(document).ready(function () {
 Topics in Statistical Inference, Fall 2019
 </h1>
 <h2>
-TF 9:50pm - 11:30pm, Richards Hall, 165
+Tue and Fri 9:50pm - 11:30pm, Ryder Hall 153
 </h2>
+<p>The course introduces methods of statistical inference, useful in any area of science that collects and analyzes data. The course overviews Bayesian and frequentist characterization of uncertainty for continuous and categorical data, principles of experimental design, and methods of causal inference. The course discusses the methodological foundations, as well as issues of practical implementation and use. Methods discussed in this class are applicable to a broad range of problems, from design and analysis of empirical studies of complex real-life phenomena, to design and analysis of evaluations of computer experiments or computer science research. The course work includes a term project involving programming and/or work with real-life investigations.</p>
 <p>
-<strong>Instructor:</strong> <a href="http://olga-vitek-lab.ccis.northeastern.edu/">Prof. Olga Vitek</a></br> Email: <a href="mailto:o.vitek@neu.edu">o.vitek@neu.edu</a></br> Office hours: WVH 310F, Thursdays 9:00am-10:00am, or by appointment.</br> Phone: (617) 373-6305</br> Mailbox: WVH 202
+<strong>Instructor:</strong> <a href="http://olga-vitek-lab.ccis.northeastern.edu/">Prof. Olga Vitek</a></br> Email: <a href="mailto:o.vitek@neu.edu" class="email">o.vitek@neu.edu</a></br> Office hours: Tue and Fri 11:30am-12:30pm, or by appointment. WVH 310F.</br> Mailbox: WVH 202
 </p>
 <p>
-<p><strong>Teaching assistants:</strong></br> <a href="http://www.ccis.northeastern.edu/people/dan-guo/">Mrs. Dan Guo</a>, Email: <a href="mailto:guo.dan@husky.neu.edu">guo.dan@husky.neu.edu</a></br> Office hours: WVH 310C, Thursdays 3pm-4pm, or by appointment.</p>
+<p><strong>Teaching assistants:</strong></br> <a href="https://www.linkedin.com/in/sicheng-hao-0a9481b2/">Mr. Sicheng Hao</a>, Email: <a href="mailto:hao.sic@husky.neu.edu" class="email">hao.sic@husky.neu.edu</a></br> Office hours: Mon 10-11am, or by appointment. WVH 310.</p>
 <p>
-<strong>Course policies and administration:</strong></br> <a href="CS7290-Spring18-syllabus.pdf">Syllabus</a>. <a href="https://piazza.com/class/jc71pjke94b5r8">Piazza</a>, <a href="https://northeastern.blackboard.com/">Blackboard</a>.</br> <a href="http://www.northeastern.edu/osccr/academic-integrity-policy/">Academic integrity policy</a> is strictly enforced.
+<strong>Course policies and administration:</strong></br> <a href="CS7290_Fall19_syllabus.pdf">Syllabus</a>, <a href="http://piazza.com/northeastern/fall2019/cs7290">Piazza</a>, <a href="https://northeastern.blackboard.com/">Blackboard</a>.</br> <a href="http://www.northeastern.edu/osccr/academic-integrity-policy/">Academic integrity policy</a> is strictly enforced.
 </p>
 <h2>
-Classical texts:
+Main text:
 </h2>
 <p>
-(KNNL) <a href="https://www.amazon.com/Applied-Linear-Statistical-Models-Student/dp/0071122214/ref=mt_paperback?_encoding=UTF8&amp;me=">Applied Linear Statistical Models</a>. Kutner, Neter, Nachtsheim, Li, McGraw-Hill, 5th Edition, 2004.</br> (Rao) <a href="https://www.amazon.com/Statistical-Research-Methods-Life-Sciences/dp/0534931413">Statistical Research Methods in the Life Sciences</a>. P. V. Rao, Duxbury Press, 1997.</br> (Dobson) <a href="https://www.amazon.com/dp/1584889500/">An Introduction to Generalized Linear Models</a>. A. Dobson, Chapman &amp; Hall/CRC, 3rd Edition, 2008.
+(KNNL) <a href="https://www.amazon.com/Applied-Linear-Statistical-Models-2013/dp/1259064743/">Applied Linear Statistical Models</a>. Kutner, Neter, Nachtsheim, Li, McGraw-Hill, 5th Edition, 2004.
 </p>
 <h2>
-Recent texts (to be dynamically updated):
+Additional texts will be dynamically updated
 </h2>
-<p>
-(OI) <a href="https://www.openintro.org/stat/textbook.php?stat_book=reset">OpenIntro Statistics</a>. Diez, Barr, Cetinkaya-Rundel, OpenIntro, 2014</br> (RI) <a href="https://rafalab.github.io/dsbook/">Introduction to Data Science</a>. Irizarry, HarvardX Data Science Serie, 2017.</br>
-</p>
 
 
 
@@ -242,6 +336,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

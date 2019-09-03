@@ -7,11 +7,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>schedule.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,8 +21,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -68,9 +71,7 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -84,13 +85,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -106,7 +112,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -126,6 +131,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -147,19 +189,73 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -199,19 +295,11 @@ $(document).ready(function () {
 
 
 <h1>
-Topics in Statistical Inference, Spring 2018
+Topics in Statistical Inference, Fall 2019
 </h1>
 <p>Schedule is updated dynamically during the semester </br></p>
 <p><font size="3"></p>
-<table style="width:96%;">
-<colgroup>
-<col width="4%" />
-<col width="13%" />
-<col width="26%" />
-<col width="20%" />
-<col width="13%" />
-<col width="16%" />
-</colgroup>
+<table>
 <thead>
 <tr class="header">
 <th></th>
@@ -224,108 +312,228 @@ Topics in Statistical Inference, Spring 2018
 </thead>
 <tbody>
 <tr class="odd">
-<td>0</td>
-<td>Tue, Jan 9</td>
-<td align="left">Introduction</td>
-<td align="left">Extra <a href="https://fivethirtyeight.com/features/what-went-wrong-in-flint-water-crisis-michigan">1</a>, <a href="http://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.2015.303003">2</a>, <a href="https://fivethirtyeight.com/features/how-the-fda-could-change-the-way-it-approves-drugs/">3</a></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="even">
 <td>1</td>
-<td>Fri, Jan 12</br>Tue, Jan 16</br>Fri, Jan 19</br>Tue, Jan 23</td>
-<td align="left">Point &amp; interval estimation</br>Hypothesis testing</br>Multiple testing</br></td>
-<td align="left">RI <a href="https://rafalab.github.io/dsbook/introduction-4.html">Ch 30-34</a></br>Extra <a href="https://www.nature.com/articles/nmeth.2813">1</a>, <a href="https://www.nature.com/articles/nmeth.2613">2</a>, <a href="https://www.nature.com/articles/nmeth.2659">3</a>, <a href="https://www.nature.com/articles/nmeth.2698">4</a>, <a href="https://www.nature.com/articles/nmeth.2738">5</a>, <a href="https://www.nature.com/articles/nmeth.3288">6</a>, <a href="http://amstat.tandfonline.com/doi/abs/10.1080/00031305.2016.1154108">7</a></td>
+<td>Fri, Sep 6</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Tue, Sep 10</td>
+<td align="left"></td>
+<td align="left"></td>
 <td align="right">Hw1 out</td>
-<td align="right"></br></br>Hw1 due Jan 22</br>Hw2 out</td>
+<td align="right"></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td>Fri, Sep 13</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Tue, Sep 17</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Fri, Sep 20</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
 <td>2</td>
-<td>Fri, Jan 26</br>Tue, Jan 30</td>
-<td align="left">Uncertainty in linear models</td>
-<td align="left">KNNL Ch 1-4</br>Extra <a href="https://www.nature.com/articles/nmeth.3627">1</a>, <a href="https://www.nature.com/articles/nmeth.3665">2</a>, <a href="https://www.nature.com/articles/nmeth.3854">3</a>, <a href="https://www.nature.com/articles/nmeth.3854">4</a></td>
+<td>Tue, Sep 24</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right">Hw2 out</td>
+<td align="right">Hw1 due</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Fri, Sep 27</td>
+<td align="left"></td>
+<td align="left"></td>
 <td align="right"></td>
-<td align="right"></br>Hw2 due Jan 31</td>
+<td align="right"></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><em>Fri, Feb 2</em></td>
-<td align="left"><strong>Midterm 1</strong></td>
+<td>Tue, Oct 1</td>
+<td align="left"></td>
 <td align="left"></td>
 <td align="right"></td>
 <td align="right"></td>
 </tr>
 <tr class="odd">
+<td></td>
+<td>Fri, Oct 4</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Tue, Oct 8</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right">Hw2 due</br>Proj group due</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Fri, Oct 11</td>
+<td align="left"><strong>Midterm exam</strong></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
 <td>3</td>
-<td>Tue, Feb 6</br>Fri, Feb 9</br>Tue, Feb 13</br>Fri, Feb 16</br>Tue, Feb 20</td>
-<td align="left">Multiple regression</br></br></br>Bootstrap</br>Weighted regression</td>
-<td align="left">KNNL Ch 5-11</br>Extra <a href="https://www.nature.com/articles/nmeth.3665">1</a>, <a href="https://www.nature.com/articles/nmeth.3414">2</a>, <a href="https://www.nature.com/articles/nmeth.3414">3</a></td>
+<td>Tue, Oct 15</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right">Hw3 out</td>
 <td align="right"></td>
-<td align="right"></br>Hw3 out</br>Proj. group due</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Fri, Oct 18</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
 </tr>
 <tr class="even">
+<td></td>
+<td>Tue, Oct 22</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Fri, Oct 25</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Tue, Oct 29</td>
+<td align="left"><em>Guest/cancelled lecture</em></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Fri, Nov 1</td>
+<td align="left">Project pitches</td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right">Proj proposal due</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Tue, Nov 5</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right">Hw3 due</td>
+</tr>
+<tr class="odd">
 <td>4</td>
-<td>Fri, Feb 23</br>Tue, Feb 27</br>Fri, Mar 2</br></td>
-<td align="left">Generalized linear models</td>
-<td align="left">KNNL Ch 14</br>Extra <a href="https://www.nature.com/articles/nmeth.3904">1</a></td>
+<td>Fri, Nov 8</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right">Hw4 out</td>
 <td align="right"></td>
-<td align="right"></br>Hw3 due Feb 28</br>Proj. proposal due</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Tue, Nov 12</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td><em>Tue, Mar 6</em></br><em>Fri, Mar 9</em></td>
-<td align="left"><em>No class, Spring break</em></br><em>No class, Spring break</em></td>
+<td>Fri, Nov 15</td>
+<td align="left"></td>
 <td align="left"></td>
 <td align="right"></td>
 <td align="right"></td>
 </tr>
 <tr class="even">
 <td></td>
-<td><em>Tue, Mar 13</em></br><em>Fri, Mar 16</em></td>
-<td align="left"><em>No class</em></br><strong>Midterm 2</strong></td>
+<td>Tue, Nov 19</td>
+<td align="left"></td>
 <td align="left"></td>
 <td align="right"></td>
 <td align="right"></td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td>Tue, Mar 20</br>Fri, Mar 23</br>Tue, Mar 27</br>Fri, Mar 30</br>Tue, Apr 3</br>Fri, Apr 6</td>
-<td align="left">Experimental design</br>Mixed effects models</br></td>
-<td align="left">KNNL Ch15-20</br>Faraway Ch8</br>Extra <a href="https://www.nature.com/articles/nmeth.2974">1</a>, <a href="https://www.nature.com/articles/nmeth.3224">2</a>, <a href="https://www.nature.com/articles/nmeth.3005">3</a>, <a href="https://www.nature.com/articles/nmeth.3180">4</a>, <a href="https://www.nature.com/articles/nmeth.3137">5</a>, <a href="https://www.nature.com/articles/nmeth.3293">6</a></td>
+<td></td>
+<td>Fri, Nov 22</td>
+<td align="left"></td>
+<td align="left"></td>
 <td align="right"></td>
-<td align="right"></br></br></br></br>Hw4 out</br>Proj. Gr4 presents</td>
+<td align="right">Hw4 due</td>
 </tr>
 <tr class="even">
-<td>6</td>
-<td>Tue, Apr 10</br>Fri, Apr 13</td>
-<td align="left">Ordinal data</br>GLM review</td>
-<td align="left">Faraway Ch5</td>
-<td align="right"></td>
-<td align="right"></br>Hw4 due</td>
-</tr>
-<tr class="odd">
 <td></td>
-<td>Tue, Apr 17</td>
+<td>Tue, Nov 26</td>
 <td align="left"><strong>Final exam</strong></td>
 <td align="left"></td>
 <td align="right"></td>
 <td align="right"></td>
 </tr>
+<tr class="odd">
+<td></td>
+<td><em>Fri, Nov 29</em></td>
+<td align="left"><em>No class, Thanksgiving</em></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
 <tr class="even">
 <td></td>
-<td>Fri, Apr 20</td>
-<td align="left"><strong>Project presentations</strong></td>
+<td>Tue, Dec 3</td>
+<td align="left"></td>
 <td align="left"></td>
 <td align="right"></td>
 <td align="right"></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>Tue, Apr 24</td>
+<td>Fri, Dec 6</td>
+<td align="left"><em>Project presentations</em></td>
+<td align="left"></td>
+<td align="right"></td>
+<td align="right">Proj report due</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Tue, Dec 10</td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="right"></td>
-<td align="right">Proj. review due</td>
+<td align="right">Proj review due</td>
 </tr>
 </tbody>
 </table>
@@ -348,6 +556,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

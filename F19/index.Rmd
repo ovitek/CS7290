@@ -1,26 +1,24 @@
 <h1> Topics in Statistical Inference, Fall 2019 </h1>
-<h2>TF 9:50pm - 11:30pm, Richards Hall, 165</h2>
+<h2>Tue and Fri 9:50pm - 11:30pm, Ryder Hall 153</h2>
+
+The course introduces methods of statistical inference, useful in any area of science that collects and analyzes data. The course overviews Bayesian and frequentist characterization of uncertainty for continuous and categorical data, principles of experimental design, and methods of causal inference. The course discusses the methodological foundations, as well as issues of practical implementation and use. Methods discussed in this class are applicable to a broad range of problems, from design and analysis of empirical studies of complex real-life phenomena, to design and analysis of evaluations of computer experiments or computer science research. The course work includes a term project involving programming and/or work with real-life investigations.
+
 
 <p><strong>Instructor:</strong> [Prof. Olga Vitek](http://olga-vitek-lab.ccis.northeastern.edu/)</br>
 Email: o.vitek@neu.edu</br>
-Office hours: WVH 310F, Thursdays 9:00am-10:00am, or by appointment.</br>
-Phone: (617) 373-6305</br>
+Office hours: Tue and Fri 11:30am-12:30pm, or by appointment. WVH 310F.</br>
 Mailbox: WVH 202</p>
 
 <p><strong>Teaching assistants:</strong></br>
-[Mrs. Dan Guo](http://www.ccis.northeastern.edu/people/dan-guo/), 
-Email: guo.dan@husky.neu.edu</br>
-Office hours: WVH 310C, Thursdays 3pm-4pm, or by appointment.
+[Mr. Sicheng Hao](https://www.linkedin.com/in/sicheng-hao-0a9481b2/), 
+Email: hao.sic@husky.neu.edu</br>
+Office hours: Mon 10-11am, or by appointment. WVH 310.
 
-<p><strong>Course policies and administration:</strong></br> [Syllabus](CS7290-Spring18-syllabus.pdf). [Piazza](https://piazza.com/class/jc71pjke94b5r8), [Blackboard](https://northeastern.blackboard.com/).</br>
+<p><strong>Course policies and administration:</strong></br> [Syllabus](CS7290_Fall19_syllabus.pdf),  [Piazza](http://piazza.com/northeastern/fall2019/cs7290), [Blackboard](https://northeastern.blackboard.com/).</br>
 [Academic integrity policy](http://www.northeastern.edu/osccr/academic-integrity-policy/) is strictly enforced.</p> 
 
-<h2>Classical texts:</h2>
-<p>(KNNL) [Applied Linear Statistical Models](https://www.amazon.com/Applied-Linear-Statistical-Models-Student/dp/0071122214/ref=mt_paperback?_encoding=UTF8&me=). Kutner, Neter, Nachtsheim, Li, McGraw-Hill, 5th Edition, 2004.</br>
-(Rao) [Statistical Research Methods in the Life Sciences](https://www.amazon.com/Statistical-Research-Methods-Life-Sciences/dp/0534931413). P. V. Rao, Duxbury Press, 1997.</br>
-(Dobson) [An Introduction to Generalized Linear Models](https://www.amazon.com/dp/1584889500/). A. Dobson, Chapman & Hall/CRC, 3rd Edition, 2008.
+<h2>Main text:</h2>
+<p>(KNNL) [Applied Linear Statistical Models](https://www.amazon.com/Applied-Linear-Statistical-Models-2013/dp/1259064743/). Kutner, Neter, Nachtsheim, Li, McGraw-Hill, 5th Edition, 2004.
 </p>
 
-<h2>Recent texts (to be dynamically updated):</h2>
-<p>(OI) [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=reset). Diez, Barr, Cetinkaya-Rundel, OpenIntro, 2014</br>
-(RI) [Introduction to Data Science](https://rafalab.github.io/dsbook/). Irizarry, HarvardX Data Science Serie, 2017.</br></p>
+<h2>Additional texts will be dynamically updated</h2>
