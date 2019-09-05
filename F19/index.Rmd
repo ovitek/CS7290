@@ -20,7 +20,12 @@ Office hours: Mon 10-11am, or by appointment. WVH 310.
 [Academic integrity policy](http://www.northeastern.edu/osccr/academic-integrity-policy/) is strictly enforced.</p> 
 
 <h2>Main text:</h2>
-<p>(KNNL) [Applied Linear Statistical Models](https://www.amazon.com/Applied-Linear-Statistical-Models-2013/dp/1259064743/). Kutner, Neter, Nachtsheim, Li, McGraw-Hill, 5th Edition, 2004.
+<p>(KNNL) [Applied Linear Statistical Models](http://users.stat.ufl.edu/~rrandles/sta4210/Rclassnotes/data/textdatasets/index.html). Kutner, Neter, Nachtsheim, Li, McGraw-Hill, 5th Edition, 2004.</br>
+(Agresti) [Categorical Data Analysis](http://users.stat.ufl.edu/~aa/cda/cda.html). Agresti, Wiley, 3rd Edition, 2013.</br>
+(Gelman) [Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/). Gelman, Carlin, Stern, Rubin, Chapman \& Hall/CRC, 3rd Edition, 2013.
 </p>
 
-<h2>Additional texts will be dynamically updated</h2>
+<h2>Additional texts (focus on R)</h2>
+<p>(Faraway) [Extending the linear model with R](https://www.amazon.com/Extending-Linear-Model-Generalized-Nonparametric/dp/158488424X). Faraway, Chapman \& Hall/CRC, 2006.</br>
+(Albert) [Bayesian computation with R](http://www-math.bgsu.edu/~albert/bcwr/). Albert, Springer 2007.
+</p>
