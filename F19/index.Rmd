@@ -1,7 +1,9 @@
 <h1> Topics in Statistical Inference, Fall 2019 </h1>
 <h2>Tue and Fri 9:50pm - 11:30pm, Ryder Hall 153</h2>
 
-The course introduces methods of statistical inference, useful in any area of science that collects and analyzes data. The course overviews Bayesian and frequentist characterization of uncertainty for continuous and categorical data, principles of experimental design, and methods of causal inference. The course discusses the methodological foundations, as well as issues of practical implementation and use. Methods discussed in this class are applicable to a broad range of problems, from design and analysis of empirical studies of complex real-life phenomena, to design and analysis of evaluations of computer experiments or computer science research. The course work includes a term project involving programming and/or work with real-life investigations.
+The course introduces concepts in applied statistics. It overviews Bayesian and frequentist characterization of uncertainty for continuous and categorical data, principles of experimental design, and methods of causal inference. The course discusses the methodological foundations, as well as issues of practical implementation and use. 
+
+The methods discussed in the course are useful in any area of science and industry that collects and analyzes data. First, many areas rely on empirical research. Students working in these areas will benefit from a formal exposure to the scientific method, principles of experimental design, and analysis of data from designed and observational studies.  Second, the success of most new scientific methods is determined by the quality of their evaluation. The concepts presented in this course will help students design and analyze data from method evaluation experiments.
 
 
 <p><strong>Instructor:</strong> [Prof. Olga Vitek](http://olga-vitek-lab.ccis.northeastern.edu/)</br>
