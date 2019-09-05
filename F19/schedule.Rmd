@@ -18,12 +18,12 @@ Schedule is updated dynamically during the semester
 |   | Tue, Oct 8  |Bayesian models for</br>Normal data                |Gelman Ch 2 \& 3.1-3.4</br>Albert Ch 3 \& 4.2               |          |Hw2 due</br>Proj group due|
 |   | Fri, Oct 11 |**Midterm exam**  |               |          |            | 
 | 3 | Tue, Oct 15 |Bayesian hierarchical</br> models                  |Gelman Ch 5.1-5.5</br>Albert 7               |Hw3 out   |            |
-|   | Fri, Oct 18 |Contingency tables                  |Agresti Ch 2 \&3</br>Faraway Ch 4               |          |            | 
-|   | Tue, Oct 22 |Generalized linear models</br>logistic regression                  | KNNL Ch 14</br>Faraway Ch 2              |          |            |
-|   | Fri, Oct 25 |Generalized linear models</br>Poisson and NB regression                  | Faraway Ch 3              |          |            | 
+|   | Fri, Oct 18 |Contingency tables                  |Agresti Ch 2-3</br>Faraway Ch 4               |          |            | 
+|   | Tue, Oct 22 |Generalized linear models:</br>logistic regression                  | KNNL Ch 14</br>Faraway Ch 2              |          |            |
+|   | Fri, Oct 25 |Generalized linear models:</br>Poisson and NB regression                  | Faraway Ch 3              |          |            | 
 |   |*Tue, Oct 29*|*No class*   |     |          |            |
 |   | Fri, Nov 1  |**Project pitches**   |               |          |Proj proposal due| 
-|   | Tue, Nov 5  |Log-linear models |               |Agresti Ch 9 and 10          |Hw3 due     |
+|   | Tue, Nov 5  |Log-linear models |               Agresti Ch 9-10 |         |Hw3 due     |
 | 4 | Fri, Nov 8  |*Guest lecture*          |               |Hw4 out   |            | 
 |   | Tue, Nov 12 |Causal inference                  |  TBD             |          |            |
 |   | Fri, Nov 15 |Causal inference                  |  TBD             |          |            | 
