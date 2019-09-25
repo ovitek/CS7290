@@ -1,5 +1,5 @@
 <h1> Topics in Statistical Inference, Fall 2019 </h1>
-<h2>Tue and Fri 9:50pm - 11:30pm, Ryder Hall 153</h2>
+<h2>Tue and Fri 9:50am - 11:30am, Ryder Hall 153</h2>
 
 The course introduces concepts in applied statistics. It overviews frequentist and Bayesian characterization of uncertainty for continuous and categorical data, principles of experimental design, and methods of causal inference. The course discusses the methodological foundations, as well as issues of practical implementation and use. 
 
