@@ -15,7 +15,7 @@ Schedule is updated dynamically during the semester
 | 7 | Fri, Sep 27 |Multi-variable regression:</br>inference \& multicollinearity|KNNL Ch 6|Hw2 out          |            | 
 | 8 | Tue, Oct 1  |Multi-variable regression:</br>inference \& multicollinearity|KNNL Ch 6 |          |            |
 | 9 | Fri, Oct 4  |Multi-variable regression:</br>extra SS, diagnostics|KNNL Ch 6, 7 \& 10.1|  |    | 
-| 10| Tue, Oct 8  |Designed experiments:</br>categorical predictor</br>factor level means|KNNL Ch 8</br>\& 15-17|          |Hw2 due</br>Oct 9</br>Proj group due|
+| 10| Tue, Oct 8  |Designed experiments:</br>categorical predictor</br>factor level means|KNNL Ch 15.1-15.2</br>Ch 16-17 \& 19|          |Hw2 due</br>Oct 9</br>Proj group due|
 |   | Fri, Oct 11 |**Midterm exam**  |               |          |            | 
 | 11| Tue, Oct 15 |Designed experiments:</br>two factors \& RCB designs|KNNL Ch 19 \& 21|Hw3 out   |            |
 | 12| Fri, Oct 18 |Linear mixed effects models|KNNL Ch 25</br>Faraway Ch 8               |          |            | 
