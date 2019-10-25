@@ -19,8 +19,8 @@ Schedule is updated dynamically during the semester
 |   | Fri, Oct 11 |**Midterm exam**  |               |          |            | 
 | 11| Tue, Oct 15 |Designed experiments:</br>two factors|KNNL Ch 19 \& 23|   |            |
 | 12| Fri, Oct 18 |Designed experiments:</br>two factors; factor-level means|KNNL Ch 19 \& 23| Hw3 out</br>Sun Oct 20 |            | 
-| 13| Tue, Oct 22 |One-case per treatment,</br> RCB designs \&</br>Linear mixed effects models|KNNL Ch 20-21</br>KNNL Ch 25</br>Faraway Ch 8 | |            |
-| 14| Fri, Oct 25 |Linear mixed effects models|KNNL Ch 25</br>Faraway Ch 8 |          |            | 
+| 13| Tue, Oct 22 |One-case per treatment,</br> RCB designs |KNNL Ch 20-21 | |            |
+| 14| Fri, Oct 25 |RCB designs \&</br>Linear mixed effects models|KNNL Ch 21</br>KNNL Ch 25</br>Faraway Ch 8 |          |            | 
 |   |*Tue, Oct 29*|*Guest lecture</br>Sicheng Hao: causal inference*   |     |          |            |
 |   | Fri, Nov 1  |**Project pitches**   |               |          |Proj proposal due| 
 | 15| Tue, Nov 5  |Contingency tables        |Agresti Ch 2-3</br>Faraway Ch 4.1-4.2|         |Hw3 due     |
