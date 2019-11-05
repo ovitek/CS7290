@@ -20,14 +20,14 @@ Schedule is updated dynamically during the semester
 | 11| Tue, Oct 15 |Designed experiments:</br>two factors|KNNL Ch 19 \& 23|   |            |
 | 12| Fri, Oct 18 |Designed experiments:</br>two factors; factor-level means|KNNL Ch 19 \& 23| Hw3 out</br>Sun Oct 20 |            | 
 | 13| Tue, Oct 22 |One-case per treatment,</br> RCB designs |KNNL Ch 20-21 | |            |
-| 14| Fri, Oct 25 |RCB designs \&</br>Linear mixed effects models|KNNL Ch 21</br>KNNL Ch 25</br>Faraway Ch 8 |          |            | 
+| 14| Fri, Oct 25 |RCB designs |KNNL Ch 21 |          |            | 
 |   |*Tue, Oct 29*|*Guest lecture</br>Sicheng Hao: causal inference*   |     |          |            |
 |   | Fri, Nov 1  |**Project pitches**   |               |          |Proj proposal due| 
-| 15| Tue, Nov 5  |Contingency tables        |Agresti Ch 2-3</br>Faraway Ch 4.1-4.2|         |Hw3 due     |
+| 15| Tue, Nov 5  |Linear mixed effects models|KNNL Ch 25</br>Rao Ch 14</br>Faraway Ch 8|         |Hw3 due     |
 | 16| Fri, Nov 8  |*Guest lecture*: *WVH366*</br>[Andrew Therriault](https://www.linkedin.com/in/therriault/) | |Hw4 out   || 
-| 17| Tue, Nov 12 |Generalized linear models:</br>logistic regression | KNNL Ch 14</br>Faraway Ch 3|||
-| 18| Fri, Nov 15 |Models for ordinal data|||| 
-| 19| Tue, Nov 19 | Generalized linear models:</br>Poisson and NB regression   | Faraway Ch 3|||
+| 17| Tue, Nov 12 |Contingency tables        |Agresti Ch 2-3</br>Faraway Ch 4.1-4.2|||
+| 18| Fri, Nov 15 |Generalized linear models:</br>logistic regression | KNNL Ch 14</br>Faraway Ch 3||| 
+| 19| Tue, Nov 19 | Models for ordinal data   | |||
 | 20| Fri, Nov 22 | Log-linear models |               Agresti Ch 9-10</br>Faraway Ch 4.4||Hw4 due| 
 |   | Tue, Nov 26 |**Final exam**    |               |          |            |
 |   |*Fri, Nov 29*|*No class, Thanksgiving* |        |          |            | 
