@@ -24,15 +24,15 @@ Schedule is updated dynamically during the semester
 |   |*Tue, Oct 29*|*Guest lecture</br>Sicheng Hao: causal inference*   |     |          |            |
 |   | Fri, Nov 1  |**Project pitches**   |               |          |Proj proposal due| 
 | 15| Tue, Nov 5  |Linear mixed effects models|KNNL Ch 25</br>Rao Ch 14</br>Faraway Ch 8|         |Hw3 due     |
-| 16| Fri, Nov 8  |*Guest lecture*: *WVH366*</br>[Andrew Therriault](https://www.linkedin.com/in/therriault/) | |Hw4 out   || 
+| 16| Fri, Nov 8  |*Guest lecture*: *WVH366*</br>[Andrew Therriault](https://www.linkedin.com/in/therriault/) | |   || 
 | 17| Tue, Nov 12 |Contingency tables        |Agresti Ch 2-3</br>Faraway Ch 4.1-4.2|||
 | 18| Fri, Nov 15 |Generalized linear models:</br>logistic regression | KNNL Ch 14</br>Faraway Ch 3||| 
-| 19| Tue, Nov 19 | Models for ordinal data   | |||
-| 20| Fri, Nov 22 | Log-linear models |               Agresti Ch 9-10</br>Faraway Ch 4.4||Hw4 due| 
-|   | Tue, Nov 26 |**Final exam**    |               |          |            |
+| 19| Tue, Nov 19 | Models for ordinal data   | |Hw4 out||
+| 20| Fri, Nov 22 | Log-linear models |               Agresti Ch 9-10</br>Faraway Ch 4.4||| 
+|   | Tue, Nov 26 |TBA    |               |          |            |
 |   |*Fri, Nov 29*|*No class, Thanksgiving* |        |          |            | 
-|   | Tue, Dec 3  |*Project presentations*           |          |            |      |
-|   | Fri, Dec 6  |*No class*  |        |          |Proj report due| 
+|   | Tue, Dec 3  |*Project presentations*           |          |            |Dec 4</br>Proj report due</br>Hw4 due|
+|   | Fri, Dec 6  |**Final exam**  |        |          || 
 |   | Tue, Dec 10 |                  |               |          |Proj review due|
 </font>
 
