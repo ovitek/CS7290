@@ -31,9 +31,9 @@ Schedule is updated dynamically during the semester
 | 20| Fri, Nov 22 | Logistic regression   | ||| 
 |   | Tue, Nov 26 |Logistic regression |               |          |            |
 |   |*Fri, Nov 29*|*No class, Thanksgiving* |        |          |            | 
-|   | Tue, Dec 3  |*Project presentations*           |          |            |Dec 4</br>Proj report due</br>Hw4 due|
-|   | Fri, Dec 6  |**Final exam**  |        |          || 
-|   | Tue, Dec 10 |                  |               |          |Proj review due|
+|   | Tue, Dec 3  |*Project presentations*           |          |            |Hw4 due|
+|   | Fri, Dec 6  |**Final exam**  |        |          |Proj report due| 
+|   | Wed, Dec 11 |                  |               |          |Proj review due|
 </font>
 
 
